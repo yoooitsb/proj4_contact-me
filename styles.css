@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'PixeloidMono';
+    src: url(fonts/PixeloidMono.ttf);
+}
+
+body {
+    font-family: 'PixeloidMono';
+    background-image: url(images/8bit-jpn.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    background-color: white;
+    display: block;
+
+    text-align: center;
+}
+
+.first-name, .last-name, .email {
+    padding: 3px;
+}
+
+.submit-button {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.first-name input[type="text"] {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    outline: none;
+}
+
+.last-name input[type="text"] {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    outline: none;
+}
+
+.email input[type="text"] {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    outline: none;
+}
+
+.submit-button input[type="submit"] {
+    font-family: 'PixeloidMono', sans-serif;
+    padding-left: 125px;
+    padding-right: 125px;
+    background-color: white;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #d2d2d2;
+}
+
+.submit-button input[value="Submit"]:hover {
+    color: white;
+}
+
+::placeholder {
+    font-family: 'PixeloidMono'
+}
+
